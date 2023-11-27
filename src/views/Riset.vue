@@ -4,7 +4,7 @@
       <h1 class="font-semibold text-6xl text-blue-900 w-2/3">SISTEM REKOMENDASI <br> HILIRISASI MITRA <br> RISET</h1>
       <button class="mt-8 bg-purple-200 text-purple-700 py-2 px-4 rounded-sm font-medium"><a href="#rekomendasi">Dapatkan Rekomendasi</a></button>
       <div class="absolute top-0 right-0">
-        <img src="src/assets/cuate.svg" alt="icon" class="flex justify-end">
+        <img src="/src/assets/cuate.svg" alt="icon" class="flex justify-end">
       </div>
     </div>
     <!-- Statistik -->
