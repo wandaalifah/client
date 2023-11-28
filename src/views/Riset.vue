@@ -32,10 +32,12 @@
       </div>
       <div class="mx-36 mb-32">
         <h2 class="font-semibold text-blue-900 text-3xl flex justify-center">{{ hasilMessage }}</h2>
-        <div v-for="mitra in recs" :key="mitra">
-          <div class="border-2 border-gray-800 p-10 rounded-lg w-1/2 mx-auto my-2">
-            <h6 class="text-2xl font-semibold uppercase">{{ mitra[0] }}</h6>
-            <p class="text-md font-normal uppercase">{{ mitra[1] }}</p>
+        <div class="lg:grid lg:grid-cols-2 lg:grid-flow-row lg:gap-2 mt-4">
+          <div v-for="mitra in recs" :key="mitra">
+            <div class="border-2 border-gray-800 p-10 rounded-lg my-2">
+              <h6 class="text-2xl font-semibold uppercase">{{ mitra[0] }}</h6>
+              <p class="text-md font-normal uppercase">{{ mitra[1] }}</p>
+            </div>
           </div>
         </div>
       </div>
