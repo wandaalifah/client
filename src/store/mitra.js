@@ -8,7 +8,7 @@ export const useMitraStore = defineStore('mitra', {
 
     actions: {
         async getMagangRecommendation(nim, minat) {
-            const res = await axios.post("http://159.223.71.157:5173/magang", {
+            const res = await axios.post("http://127.0.0.1:5000/magang", {
                 nim, minat
             })
 
@@ -17,7 +17,7 @@ export const useMitraStore = defineStore('mitra', {
         },
 
         async getRisetRecommendation(nip) {
-            const res = await axios.post("http://159.223.71.157:5173/riset", {
+            const res = await axios.post("http://127.0.0.1:5000/riset", {
                 nip
             })
 
